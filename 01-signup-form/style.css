@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+
+	font-family: "Pacifico", cursive;
+
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #eafbff;
+	background-image: linear-gradient(
+		to bottom,
+		#caf3f0 0%,
+		#caf3f0 50%,
+		#5290f9 50%,
+		#5290f9 100%
+	);
+}
+
+.container {
+	width: 400px;
+	background-color: #fff;
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 24px 3px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 10px 10px 24px 3px rgba(0, 0, 0, 0.4);
+	box-shadow: 10px 10px 24px 3px rgba(0, 0, 0, 0.4);
+}
+.form {
+	width: 100%;
+}
+.header {
+	padding: 10px 10px;
+}
+
+.dots {
+	display: flex;
+}
+.dot {
+	background-color: black;
+	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+	border-radius: 50%;
+
+	height: 13px;
+	width: 13px;
+
+	margin: 5px;
+}
+
+.red {
+	background-color: rgba(255, 68, 63, 1);
+}
+
+.yellow {
+	background-color: rgba(255, 202, 52, 1);
+}
+
+.green {
+	background-color: rgba(0, 236, 179, 1);
+}
+
+.content__background {
+	height: 80px;
+	width: 100%;
+
+	background-color: rgba(0, 0, 0, 0.05);
+
+	background-image: url("./bgImg.png");
+}
+.content__inputs {
+	position: relative;
+	padding: 20px 50px;
+}
+.title {
+	font-size: 42px;
+	text-align: center;
+	position: absolute;
+	left: 30%;
+	top: -70px;
+	color: rgba(0, 236, 179, 1);
+}
+
+.input {
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid rgba(79, 68, 255, 0.8);
+	font-size: 16px;
+	color: rgba(0, 236, 179, 1);
+	padding: 5px;
+}
+
+.input::placeholder {
+	color: rgba(79, 68, 255, 0.5);
+}
+
+.footer {
+	width: 100%;
+}
+.btn {
+	padding: 20px 0;
+	width: 100%;
+	border: 0;
+	outline: 0;
+	background-color: rgba(79, 68, 255, 1);
+	border-radius: 0 0 20px 20px;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
