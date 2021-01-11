@@ -2,8 +2,8 @@
 
 ## Daily-UI: Day 1
 
-## Date: 11 - Jan - 21
+### Date: 11 - Jan - 21
 
-## Screenshot:
+### Screenshot:
 
 <img src="template-project-img.png" alt="screenshot">
