@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--border-color: rgba(95, 89, 206, 1);
+	--background-color: #27292f;
+	--primary-color: white;
+	--secondary-color: rgba(83, 234, 177, 1);
+
+	--primary-font: "Open Sans", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	height: 100vh;
+	width: 100vw;
+
+	overflow: hidden;
+
+	font-family: var(--primary-font);
+	background-color: black;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	flex-direction: column;
+}
+.card {
+	width: 500px;
+	position: relative;
+
+	padding: 50px;
+	padding-right: 100px;
+	margin-bottom: 30px;
+
+	border: 5px solid var(--border-color);
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+
+	color: var(--primary-color);
+	background: url(bg-image.png) no-repeat right top, var(--background-color);
+}
+
+.card::after {
+	content: "";
+	position: absolute;
+	bottom: -17px;
+	left: 12px;
+	z-index: -1;
+
+	border: 5px solid var(--border-color);
+	border-radius: 20px;
+
+	height: 100px;
+	width: 460px;
+	opacity: 0.5;
+}
+
+.logo {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+	background-color: var(--secondary-color);
+	border-radius: 50%;
+	padding: 3px;
+}
+
+.logo img {
+	width: 40px;
+	object-fit: contain;
+}
+
+input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+
+	height: 40px;
+
+	color: var(--primary-color);
+	font-weight: 500;
+	font-family: var(--primary-font);
+	letter-spacing: 1.5px;
+	font-size: 14px;
+
+	margin: 5px 0;
+	padding: 0px 5px;
+
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+input::placeholder {
+	color: var(--primary-color);
+	padding-bottom: 2px;
+}
+
+.holder {
+	width: 60%;
+}
+
+.validation {
+	width: 100%;
+	display: flex;
+}
+
+.validation input {
+	margin: 10px 10px;
+	width: calc(20% - 10px);
+}
+
+.validation input:first-child {
+	margin-left: 0;
+}
+
+.btn {
+	padding: 10px 30px;
+	border: 0;
+	outline: 0;
+
+	background-color: rgb(39, 42, 44);
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--primary-color);
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-family: var(--primary-font);
+	letter-spacing: 2px;
+}
+
+.btn:hover {
+	background-color: rgba(39, 42, 44, 0.7);
+}
