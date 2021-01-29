@@ -11,3 +11,4 @@
 |  3  | 15-Jan-21 | SignUp Form                | Figma       | [Link](https://github.com/tinspham209/daily-ui/tree/master/03-signup-form)     |
 |  4  | 25-Jan-21 | Theme Clock                | HTML/CSS/JS | [Link](https://github.com/tinspham209/daily-ui/tree/master/04-theme-clock)     |
 |  5  | 26-Jan-21 | Games Dashboard (Glass UI) | Figma       | [Link](https://github.com/tinspham209/daily-ui/tree/master/05-glass-dashboard) |
+|  6  | 29-Jan-21 | My Portfolio               | Figma       | [Link](https://github.com/tinspham209/daily-ui/tree/master/06-portfolio)       |
