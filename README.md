@@ -2,7 +2,7 @@
 
 ## Date: 11 - Jan - 21
 
-- Screenshot is in each project
+- Screenshot is on each project
 
 |  #  | Day       | Project                    | Type        | Repository                                                                        |
 | :-: | --------- | -------------------------- | ----------- | --------------------------------------------------------------------------------- |
@@ -14,3 +14,4 @@
 |  6  | 29-Jan-21 | My Portfolio               | Figma       | [Link](https://github.com/tinspham209/daily-ui/tree/master/06-portfolio)          |
 |  7  | 29-Jan-21 | Kinetic Loader             | HTML/CSS/JS | [Link](https://github.com/tinspham209/daily-ui/tree/master/07-kinetic-loader)     |
 |  8  | 02-Mar-21 | Animated Countdown         | HTML/CSS/JS | [Link](https://github.com/tinspham209/daily-ui/tree/master/08-animated-countdown) |
+|  9  | 23-Mar-21 | Hover Board                | HTML/CSS/JS | [Link](https://github.com/tinspham209/daily-ui/tree/master/09-hoverboard)         |
